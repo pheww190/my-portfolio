@@ -14,15 +14,31 @@
     <div class="noise"></div>
     <header class="border-b">
       <a href="/" class="logo">P VIVEKANAND</a>
-      <nav class="mono">
+      <nav class="mono" id="main-nav">
         <a href="#home">HOME</a>
         <a href="#about">ABOUT</a>
         <a href="#skills">SKILLS</a>
         <a href="#projects">PROJECTS</a>
         <a href="#contact">CONTACT</a>
       </nav>
-      <div class="mono status-indicator">STATUS: [ONLINE]</div>
+      <div class="header-right">
+        <div class="mono status-indicator">STATUS: [ONLINE]</div>
+        <button class="hamburger mono" id="hamburger" aria-label="Toggle menu" aria-expanded="false">
+          <span class="ham-bar"></span>
+          <span class="ham-bar"></span>
+          <span class="ham-bar"></span>
+        </button>
+      </div>
     </header>
+    <div class="mobile-nav-overlay" id="mobile-nav-overlay">
+      <nav class="mobile-nav mono">
+        <a href="#home">HOME</a>
+        <a href="#about">ABOUT</a>
+        <a href="#skills">SKILLS</a>
+        <a href="#projects">PROJECTS</a>
+        <a href="#contact">CONTACT</a>
+      </nav>
+    </div>
 
     <main id="app">
     </main>
